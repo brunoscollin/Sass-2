@@ -1,0 +1,69 @@
+//Ipad
+
+@media only screen and (min-width : 768px) and (max-width : 1024px)
+{   
+    .Proposition {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .Proposition__prop1 {
+        
+        h2 {
+            font-size: $title1;
+            margin: auto;
+            text-align: center;
+            
+        }
+        h3 {
+            font-size: $title2;
+            margin: auto;
+            text-align: center;
+            margin-top:-20px;
+            
+           
+        }
+        p {
+            font-size: $proptext;
+            padding-left: $paddingpara2;
+            padding-right: $paddingpara2;
+            text-align: justify;
+            margin-top: 1%;
+        }
+        
+    }
+}
+
+// Ipad Pro
+
+@media only screen and (min-width : 1024px) and (max-width : 1366px)
+{
+    .Proposition {
+        display: flex;
+        flex-direction: row;
+        }
+
+    .Proposition__prop1 {
+        
+        h2 {
+            font-size: $title1;
+            margin: auto;
+            text-align: center;
+        }
+        h3 {
+            font-size: $title2;
+            margin: auto;
+            text-align: center;
+            margin-top:-20px;
+            
+           
+        }
+        p {
+            font-size: $proptext;
+            padding-left: $paddingpara2;
+            padding-right: $paddingpara2;
+            text-align: justify;
+            margin-top: 1%;
+        }
+    }
+}
